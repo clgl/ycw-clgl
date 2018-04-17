@@ -35,4 +35,6 @@ public interface DataBaseFieldConstant {
 	 * 更新时间
 	 */
 	public static final String UPDATE_DATE = "updateDate";
+	//商户状态字段
+	public static final String STATUS = "status";
 }

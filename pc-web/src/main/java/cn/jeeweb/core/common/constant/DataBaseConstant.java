@@ -19,4 +19,10 @@ public interface DataBaseConstant {
 	 */
 	public static final String DEL_FLAG_NORMAL = "0";
 	public static final String DEL_FLAG_DELETE = "1";
+	/** 正常状态 */
+	public static final Integer STATUS_USED = 1;
+	/** 废弃状态 */
+	public static final Integer STATUS_DISABLE = 0;
+	/** 已删除状态 */
+	public static final Integer STATUS_DELETED = 2;
 }
