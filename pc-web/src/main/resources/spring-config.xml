@@ -22,7 +22,7 @@
 	<context:component-scan base-package="cn.jeeweb.core.common.service.*" />
 	<context:component-scan base-package="cn.jeeweb.modules.codegen.dao.*" />
 	<context:component-scan base-package="cn.jeeweb.modules.common.jcaptcha.*" />
-
+	<context:component-scan base-package="cn.jeeweb.modules.**.mapper" />
 	<!-- 扫描注解Bean -->
 	<context:component-scan base-package="cn.jeeweb.modules.**.service" />
 
